@@ -11,28 +11,19 @@ This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril
 #################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
 :getVersionJson
-:extractUserdev
-:extractDependencyATs SKIPPED
-:extractMcpData SKIPPED
-:extractMcpMappings
-:genSrgs SKIPPED
-:downloadClient SKIPPED
-:downloadServer SKIPPED
-:splitServerJar SKIPPED
-:mergeJars SKIPPED
-:deobfMcSRG SKIPPED
-:decompileMc SKIPPED
-:fixMcSources
-:applySourcePatches SKIPPED
-:remapMcSources SKIPPED
-:recompileMc SKIPPED
 :extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
 :getAssetIndex UP-TO-DATE
 :getAssets
 :makeStart
-:setupDecompWorkspace
+:makeEclipseCleanRunClient
+:makeEclipseCleanRunServer
+:eclipse
 
 BUILD SUCCESSFUL
 
-Total time: 37.297 secs
+Total time: 10.905 secs
